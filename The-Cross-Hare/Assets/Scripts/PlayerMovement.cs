@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
         // || = or
         if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
         {
-            transform.position += new Vector3(0.5f, 0);
+            transform.position += new Vector3(1.3f, 0);
         }
     }
 }
