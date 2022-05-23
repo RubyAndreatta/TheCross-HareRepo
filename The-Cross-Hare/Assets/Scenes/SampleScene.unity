@@ -604,7 +604,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 425125320}
+  - {fileID: 425125319}
   selectedCommands: []
   variables: []
   description: 
@@ -645,8 +645,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: Little one, I mean only kindness. I can offer guidance to trot through
-    these parts.
+  storyText: Little one, I mean only kindness. I can offer guidance to help you pass
+    through these parts, unharmed and well.
   description: 
   character: {fileID: 1310398171}
   portrait: {fileID: 21300000, guid: bca405818493a4f4a8fb63a69294d19a, type: 3}
@@ -804,9 +804,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: This world is a harsh one, your choices impact your travels. everything
-    you learn must be remembered to your own accord, no one but you are responsible
-    for this.
+  storyText: 'This world is a harsh one, your choices will impact your travels. '
   description: 
   character: {fileID: 1310398171}
   portrait: {fileID: 0}
@@ -833,7 +831,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  storyText: 
+  storyText: Everything you learn must be remembered to your own accord, no one but
+    you are responsible for this.
   description: 
   character: {fileID: 1310398171}
   portrait: {fileID: 0}
@@ -917,7 +916,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Do you understand?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1310398171}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -957,7 +956,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &425125317
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -978,7 +977,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &425125318
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1017,8 +1016,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -364.96558
-    y: 265.5
+    x: -461.96558
+    y: 221.5
     width: 113
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1721,8 +1720,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 847190609}
+  selectedCommands:
+  - {fileID: 847190622}
   variables: []
   description: 
   stepPause: 0
@@ -2135,7 +2136,7 @@ MonoBehaviour:
   itemId: 34
   indentLevel: 0
   storyText: I am sure you were warned of the dangers of these woodlands, fear not,
-    even a wrong answer reveals the answer.
+    even a wrong response reveals the answer.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5905,6 +5906,12 @@ GameObject:
   - component: {fileID: 1305723850}
   - component: {fileID: 1305723849}
   - component: {fileID: 1305723848}
+  - component: {fileID: 1305723855}
+  - component: {fileID: 1305723854}
+  - component: {fileID: 1305723853}
+  - component: {fileID: 1305723852}
+  - component: {fileID: 1305723857}
+  - component: {fileID: 1305723856}
   m_Layer: 0
   m_Name: PoleCatRoute
   m_TagString: Untagged
@@ -5965,6 +5972,12 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1305723848}
+  - {fileID: 1305723855}
+  - {fileID: 1305723854}
+  - {fileID: 1305723853}
+  - {fileID: 1305723852}
+  - {fileID: 1305723857}
+  - {fileID: 1305723856}
   suppressAllAutoSelections: 0
 --- !u!114 &1305723850
 MonoBehaviour:
@@ -5993,7 +6006,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1305723849}
   selectedCommands:
-  - {fileID: 1305723848}
+  - {fileID: 1305723856}
   variables: []
   description: 
   stepPause: 0
@@ -6019,6 +6032,170 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1305723852
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305723847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 5
+  indentLevel: 0
+  storyText: (input answer) you rotund idiot, did you fall off the back of a truck
+    and hit your head or something?
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1305723853
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305723847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 4
+  indentLevel: 0
+  storyText: What do they say?
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1305723854
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305723847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3
+  indentLevel: 0
+  storyText: Oh that fucking cat, always the same two questions and answers, be more
+    original you self-centered, pretensious, prick.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1305723855
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305723847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2
+  indentLevel: 0
+  storyText: Hey my dumb little meatbun
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1305723856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305723847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 7
+  indentLevel: 0
+  storyText: did you bounce?
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1305723857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305723847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 6
+  indentLevel: 0
+  storyText: yes
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1310398169
 GameObject:
   m_ObjectHideFlags: 0
@@ -6287,7 +6464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 425125303}
+  selectedFlowchart: {fileID: 847190606}
 --- !u!4 &1606458618
 Transform:
   m_ObjectHideFlags: 1
