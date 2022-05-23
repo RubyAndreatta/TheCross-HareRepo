@@ -489,6 +489,7 @@ GameObject:
   - component: {fileID: 425125327}
   - component: {fileID: 425125328}
   - component: {fileID: 425125329}
+  - component: {fileID: 425125330}
   m_Layer: 0
   m_Name: DeerTutorial
   m_TagString: Untagged
@@ -583,6 +584,7 @@ MonoBehaviour:
   - {fileID: 425125312}
   - {fileID: 425125324}
   - {fileID: 425125316}
+  - {fileID: 425125330}
   - {fileID: 425125313}
   - {fileID: 425125323}
   - {fileID: 425125325}
@@ -615,9 +617,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 425125301}
+  - {fileID: 425125302}
   selectedCommands:
-  - {fileID: 425125329}
+  - {fileID: 425125330}
   variables: []
   description: 
   stepPause: 0
@@ -1291,7 +1293,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &425125329
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1305,6 +1307,33 @@ MonoBehaviour:
   indentLevel: 0
   storyText: A silhouette grows closer with each careful step, a tall figure with
     eyes full of sorrow.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &425125330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425125299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 28
+  indentLevel: 0
+  storyText: Be warned, a creature of questions lies ahead. (CHANGE THIS)
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6883,6 +6912,7 @@ GameObject:
   - component: {fileID: 2138076638}
   - component: {fileID: 2138076637}
   - component: {fileID: 2138076636}
+  - component: {fileID: 2138076639}
   m_Layer: 0
   m_Name: IgnoredRoute
   m_TagString: Untagged
@@ -6904,17 +6934,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 67
-    y: 70
-    width: 111
+    x: 325
+    y: 138
+    width: 92
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 0
-  blockName: New Block
+  blockName: ignored
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 2138076639}
   suppressAllAutoSelections: 0
 --- !u!114 &2138076637
 MonoBehaviour:
@@ -6940,8 +6971,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 2138076636}
+  selectedCommands:
+  - {fileID: 2138076639}
   variables: []
   description: 
   stepPause: 0
@@ -6967,3 +7000,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2138076639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138076635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1
+  indentLevel: 0
+  storyText: Screams are rarely good news, best to avoid trouble and carry on.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
