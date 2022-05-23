@@ -488,6 +488,7 @@ GameObject:
   - component: {fileID: 425125326}
   - component: {fileID: 425125327}
   - component: {fileID: 425125328}
+  - component: {fileID: 425125329}
   m_Layer: 0
   m_Name: DeerTutorial
   m_TagString: Untagged
@@ -547,6 +548,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 425125329}
   - {fileID: 425125300}
   - {fileID: 425125305}
   - {fileID: 425125309}
@@ -601,7 +603,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 972.9656, y: 162.5}
+  scrollPos: {x: 1040.9656, y: 480}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
@@ -614,7 +616,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 425125301}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 425125329}
   variables: []
   description: 
   stepPause: 0
@@ -682,8 +685,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -130.46555
-    y: 11
+    x: -142.46555
+    y: -79
     width: 96
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1122,7 +1125,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &425125323
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1150,7 +1153,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &425125324
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1177,7 +1180,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &425125325
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1205,7 +1208,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &425125326
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1232,7 +1235,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &425125327
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1260,7 +1263,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &425125328
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1274,6 +1277,34 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'As she begins to walk away, there seems to be a moment of hesitation.
     Was that a glimpse of regret? '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &425125329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425125299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 27
+  indentLevel: 0
+  storyText: A silhouette grows closer with each careful step, a tall figure with
+    eyes full of sorrow.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1900,7 +1931,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 847190618}
   selectedCommands: []
   variables: []
   description: 
@@ -2182,12 +2214,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 270
     y: 466
-    width: 144
+    width: 211
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 9
-  blockName: RIDDLE 1 PLAYS
+  blockName: RIDDLE 1 PLAYS(good intent
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -2211,12 +2243,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 635
     y: 468
-    width: 145
+    width: 205
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 8
-  blockName: RIDDLE 2 PLAYS
+  blockName: RIDDLE 2 PLAYS(bad intent
   description: 
   eventHandler: {fileID: 0}
   commandList: []
@@ -3059,7 +3091,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 5
+  itemId: 53
   blockName: death2
   description: 
   eventHandler: {fileID: 0}
@@ -3087,7 +3119,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 48
+  itemId: 52
   blockName: correctanswer2
   description: 
   eventHandler: {fileID: 0}
@@ -6184,7 +6216,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1305723849}
   selectedCommands:
-  - {fileID: 1305723848}
+  - {fileID: 1305723852}
   variables: []
   description: 
   stepPause: 0
