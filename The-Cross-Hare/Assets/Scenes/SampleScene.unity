@@ -482,6 +482,12 @@ GameObject:
   - component: {fileID: 425125319}
   - component: {fileID: 425125318}
   - component: {fileID: 425125317}
+  - component: {fileID: 425125324}
+  - component: {fileID: 425125323}
+  - component: {fileID: 425125325}
+  - component: {fileID: 425125326}
+  - component: {fileID: 425125327}
+  - component: {fileID: 425125328}
   m_Layer: 0
   m_Name: DeerTutorial
   m_TagString: Untagged
@@ -571,10 +577,13 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 425125313}
   - {fileID: 425125311}
   - {fileID: 425125312}
+  - {fileID: 425125324}
   - {fileID: 425125316}
+  - {fileID: 425125313}
+  - {fileID: 425125323}
+  - {fileID: 425125325}
   - {fileID: 425125315}
   - {fileID: 425125322}
   - {fileID: 425125321}
@@ -604,7 +613,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 425125319}
+  - {fileID: 425125301}
   selectedCommands: []
   variables: []
   description: 
@@ -645,8 +654,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: Little one, I mean only kindness. I can offer guidance to help you pass
-    through these parts, unharmed and well.
+  storyText: Little one, I have only kind intentions. I can offer guidance to help
+    you pass through these parts, unharmed and well.
   description: 
   character: {fileID: 1310398171}
   portrait: {fileID: 21300000, guid: bca405818493a4f4a8fb63a69294d19a, type: 3}
@@ -710,8 +719,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 425125310}
   - {fileID: 425125314}
+  - {fileID: 425125310}
+  - {fileID: 425125328}
   suppressAllAutoSelections: 0
 --- !u!114 &425125308
 MonoBehaviour:
@@ -859,9 +869,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  storyText: 
+  storyText: 'Travel east, travel as far as you can. I am only a passerby to these
+    woods, however, I know a few warrens lay beyond the horizon. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1310398171}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -886,8 +897,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: However I will say that I am certain many warrens reside to the east,
-    those who know of my name can be trusted.
+  storyText: Very well. However I will say that I am certain many warrens reside
+    to the east, the spiderlings can be trusted.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -941,9 +952,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: 
+  storyText: Unlike myself, others may wish you harm. Not all herbivores are kind,
+    and not all carnivores are hungry.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1310398171}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -989,9 +1001,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 19
   indentLevel: 0
-  storyText: 
+  storyText: That is okay, let me repeat myself...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1310398171}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1026,7 +1038,9 @@ MonoBehaviour:
   blockName: understand
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 425125326}
+  - {fileID: 425125327}
   suppressAllAutoSelections: 0
 --- !u!114 &425125320
 MonoBehaviour:
@@ -1106,6 +1120,172 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &425125323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425125299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 22
+  indentLevel: 0
+  storyText: Go forth, the spiderlings are dear friends of mine. They do not harm
+    friends, tell them you spoke to Doe and they will help you.
+  description: 
+  character: {fileID: 1310398171}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &425125324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425125299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 21
+  indentLevel: 0
+  storyText: Doe takes a small breath, lowering her head to be the height of rabbit.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &425125325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425125299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 23
+  indentLevel: 0
+  storyText: Doe presses her muzzle to your forehead, a huff of warm air leaving
+    her nostrils before she raises her head.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &425125326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425125299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 24
+  indentLevel: 0
+  storyText: Good, safe travels little one.
+  description: 
+  character: {fileID: 1310398171}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &425125327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425125299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 25
+  indentLevel: 0
+  storyText: 'As she begins to walk away, there seems to be a moment of hesitation.
+    Was that a glimpse of regret? '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &425125328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425125299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 26
+  indentLevel: 0
+  storyText: 'As she begins to walk away, there seems to be a moment of hesitation.
+    Was that a glimpse of regret? '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1720,10 +1900,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 847190609}
-  selectedCommands:
-  - {fileID: 847190622}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -6006,7 +6184,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1305723849}
   selectedCommands:
-  - {fileID: 1305723856}
+  - {fileID: 1305723848}
   variables: []
   description: 
   stepPause: 0
@@ -6144,7 +6322,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1305723856
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6171,7 +6349,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1305723857
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6464,7 +6642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 847190606}
+  selectedFlowchart: {fileID: 425125303}
 --- !u!4 &1606458618
 Transform:
   m_ObjectHideFlags: 1
