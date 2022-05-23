@@ -463,7 +463,6 @@ GameObject:
   - component: {fileID: 425125303}
   - component: {fileID: 425125301}
   - component: {fileID: 425125300}
-  - component: {fileID: 425125302}
   - component: {fileID: 425125305}
   - component: {fileID: 425125306}
   m_Layer: 0
@@ -523,26 +522,11 @@ MonoBehaviour:
   itemId: 0
   blockName: DeerIntro
   description: 
-  eventHandler: {fileID: 425125302}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 425125300}
   - {fileID: 425125305}
   suppressAllAutoSelections: 0
---- !u!114 &425125302
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 425125299}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 425125301}
-  suppressBlockAutoSelect: 0
-  waitForFrames: 1
 --- !u!114 &425125303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1157,7 +1141,6 @@ GameObject:
   - component: {fileID: 847190607}
   - component: {fileID: 847190606}
   - component: {fileID: 847190605}
-  - component: {fileID: 847190608}
   - component: {fileID: 847190621}
   - component: {fileID: 847190620}
   - component: {fileID: 847190619}
@@ -1190,6 +1173,14 @@ GameObject:
   - component: {fileID: 847190639}
   - component: {fileID: 847190635}
   - component: {fileID: 847190631}
+  - component: {fileID: 847190643}
+  - component: {fileID: 847190642}
+  - component: {fileID: 847190608}
+  - component: {fileID: 847190644}
+  - component: {fileID: 847190647}
+  - component: {fileID: 847190646}
+  - component: {fileID: 847190645}
+  - component: {fileID: 847190641}
   m_Layer: 0
   m_Name: CatsRiddle
   m_TagString: Untagged
@@ -1211,18 +1202,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 462
-    y: 84
-    width: 98
+    x: 470
+    y: 229
+    width: 110
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 0
-  blockName: Cat intro
+  blockName: Cat menu1
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 847190608}
   - {fileID: 847190616}
   - {fileID: 847190611}
   - {fileID: 847190612}
@@ -1240,7 +1230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 0, y: 0}
+  scrollPos: {x: 390.00003, y: 50.5}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -1251,8 +1241,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 847190618}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -1288,26 +1277,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 847190604}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 1
+  itemId: 42
   indentLevel: 0
-  storyText: Perched upon a tree stump, swarmed with moss and fungi sat a towering
-    figure. An ink-black cat, paired with pupil-less eyes. Their whiskers twitching
-    as you hop into the clearing, their blindness is plain to see.
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 847190605}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &847190609
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1322,8 +1303,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 447
-    y: 184
+    x: 507
+    y: 298
     width: 145
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1338,6 +1319,7 @@ MonoBehaviour:
   - {fileID: 847190629}
   - {fileID: 847190628}
   - {fileID: 847190622}
+  - {fileID: 847190641}
   suppressAllAutoSelections: 0
 --- !u!114 &847190610
 MonoBehaviour:
@@ -1353,8 +1335,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 282
-    y: 99
+    x: 294
+    y: 230
     width: 134
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1410,7 +1392,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 3
   targetBlock: {fileID: 847190613}
   durationOLD: 0
 --- !u!114 &847190613
@@ -1427,8 +1409,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 625
-    y: 99
+    x: 713
+    y: 254
     width: 81
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1442,6 +1424,7 @@ MonoBehaviour:
   - {fileID: 847190626}
   - {fileID: 847190625}
   - {fileID: 847190631}
+  - {fileID: 847190647}
   suppressAllAutoSelections: 0
 --- !u!114 &847190614
 MonoBehaviour:
@@ -1538,8 +1521,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 317
-    y: 310
+    x: 270
+    y: 466
     width: 144
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1567,8 +1550,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 578
-    y: 307
+    x: 635
+    y: 468
     width: 145
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1643,8 +1626,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 378
-    y: 495
+    x: 390
+    y: 626
     width: 108
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1949,8 +1932,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 289
-    y: 169
+    x: 362
+    y: 296
     width: 83
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1961,6 +1944,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 847190630}
+  - {fileID: 847190645}
   suppressAllAutoSelections: 0
 --- !u!114 &847190633
 MonoBehaviour:
@@ -1976,8 +1960,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 134
-    y: 106
+    x: 130
+    y: 307
     width: 110
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1989,6 +1973,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 847190637}
   - {fileID: 847190638}
+  - {fileID: 847190646}
   suppressAllAutoSelections: 0
 --- !u!114 &847190634
 MonoBehaviour:
@@ -2176,6 +2161,175 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &847190641
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847190604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 47
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 847190617}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &847190642
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847190604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 41
+  indentLevel: 0
+  storyText: 'Perched upon a tree stump, swarmed with moss and fungi sat a towering
+    figure. An ink-black cat, paired with pupil-less eyes. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &847190643
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847190604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 467
+    y: 157
+    width: 98
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 40
+  blockName: Cat intro
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 847190642}
+  - {fileID: 847190644}
+  - {fileID: 847190608}
+  suppressAllAutoSelections: 0
+--- !u!114 &847190644
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847190604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 43
+  indentLevel: 0
+  storyText: Their whiskers twitching as you hop into the clearing, their blindness
+    is as obvious as their pelt is black.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &847190645
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847190604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 46
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 847190617}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &847190646
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847190604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 45
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 847190618}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &847190647
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847190604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 44
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 847190618}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!1 &859242618
 GameObject:
   m_ObjectHideFlags: 0
@@ -2376,7 +2530,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 895452074}
   selectedCommands: []
   variables: []
   description: 
@@ -5521,7 +5676,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1305723850}
+  selectedFlowchart: {fileID: 847190606}
 --- !u!4 &1606458618
 Transform:
   m_ObjectHideFlags: 1
