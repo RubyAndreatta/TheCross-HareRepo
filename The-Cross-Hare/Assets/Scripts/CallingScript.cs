@@ -8,6 +8,7 @@ public class CallingScript : MonoBehaviour
     public Fungus.Flowchart callingFlowchart;
     public Collider2D colsounds;
     public Collider2D colignorepolecat;
+    public Collider2D colfollowpolecat;
 
     // Start is called before the first frame update
     void Start()
@@ -36,6 +37,14 @@ public class CallingScript : MonoBehaviour
             transform.position = colignorepolecat.transform.position;
         }
 
+        else if (callingFlowchart.FindBlock("follow").IsExecuting())
+        {
+            // this.GetComponent<PlayerMovement>().enabled = false;
+
+            // callingFlowchart.ExecuteBlock("Polecatscries");
+            // Debug.Log("block working");
+            transform.position = colfollowpolecat.transform.position;
+        }
     }
 
 
