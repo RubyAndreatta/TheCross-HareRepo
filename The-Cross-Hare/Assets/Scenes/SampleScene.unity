@@ -510,6 +510,7 @@ GameObject:
   - component: {fileID: 425125333}
   - component: {fileID: 425125332}
   - component: {fileID: 425125334}
+  - component: {fileID: 425125335}
   m_Layer: 0
   m_Name: DeerTutorial
   m_TagString: Untagged
@@ -636,8 +637,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 425125332}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -746,6 +746,7 @@ MonoBehaviour:
   - {fileID: 425125314}
   - {fileID: 425125310}
   - {fileID: 425125328}
+  - {fileID: 425125335}
   suppressAllAutoSelections: 0
 --- !u!114 &425125308
 MonoBehaviour:
@@ -1395,8 +1396,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -436.96558
-    y: 325
+    x: -91.965576
+    y: 385
     width: 126
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1456,6 +1457,27 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &425125335
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425125299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 32
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 425125332}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -6885,7 +6907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 895452071}
+  selectedFlowchart: {fileID: 1305723850}
 --- !u!4 &1606458618
 Transform:
   m_ObjectHideFlags: 1

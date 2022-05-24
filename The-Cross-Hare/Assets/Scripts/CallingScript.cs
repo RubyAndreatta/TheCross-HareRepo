@@ -25,6 +25,14 @@ public class CallingScript : MonoBehaviour
            // Debug.Log("block working");
             transform.position = col.transform.position;
         }
+        if (callingFlowchart.FindBlock("MoveToCries").IsExecuting())
+        {
+            // this.GetComponent<PlayerMovement>().enabled = false;
+
+            // callingFlowchart.ExecuteBlock("Polecatscries");
+            // Debug.Log("block working");
+            transform.position = col.transform.position;
+        }
     }
 
 
