@@ -6,7 +6,8 @@ using Fungus;
 public class CallingScript : MonoBehaviour
 {
     public Fungus.Flowchart callingFlowchart;
-    public Collider2D col;
+    public Collider2D colsounds;
+    public Collider2D colignorepolecat;
 
     // Start is called before the first frame update
     void Start()
@@ -23,16 +24,18 @@ public class CallingScript : MonoBehaviour
 
             // callingFlowchart.ExecuteBlock("Polecatscries");
            // Debug.Log("block working");
-            transform.position = col.transform.position;
+            transform.position = colsounds.transform.position;
         }
-        if (callingFlowchart.FindBlock("MoveToCries").IsExecuting())
+
+        else if (callingFlowchart.FindBlock("ignore").IsExecuting())
         {
             // this.GetComponent<PlayerMovement>().enabled = false;
 
             // callingFlowchart.ExecuteBlock("Polecatscries");
             // Debug.Log("block working");
-            transform.position = col.transform.position;
+            transform.position = colignorepolecat.transform.position;
         }
+
     }
 
 
