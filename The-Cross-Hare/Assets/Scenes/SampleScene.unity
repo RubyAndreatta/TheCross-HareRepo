@@ -643,7 +643,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -131.46555
     y: 77
-    width: 103.40909
+    width: 101.56248
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -672,9 +672,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -267.46555
-    y: 165
-    width: 94.31818
+    x: -260.56897
+    y: 166.72414
+    width: 92.187485
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -707,11 +707,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 583.8863, y: -372.8826}
+  scrollPos: {x: 1316.9869, y: 97.84526}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 0.8800001
+  zoom: 0.6400003
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -789,7 +789,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -130.46555
     y: -9
-    width: 95.454544
+    width: 95.312485
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -815,7 +815,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 10.534454
     y: 167
-    width: 72.72727
+    width: 71.87499
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -891,7 +891,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 9
+  itemId: 138
   indentLevel: 0
   storyText: Safe travels, little one.
   description: 
@@ -918,7 +918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 8
+  itemId: 137
   indentLevel: 0
   storyText: 'This world is a harsh one, your choices will impact your travels. '
   description: 
@@ -1029,7 +1029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 13
+  itemId: 140
   indentLevel: 0
   storyText: Do you understand?
   description: 
@@ -1056,7 +1056,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 12
+  itemId: 139
   indentLevel: 0
   storyText: Unlike myself, others may wish you harm. Not all herbivores are kind,
     and not all carnivores are hungry.
@@ -1136,7 +1136,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -461.96558
     y: 221.5
-    width: 112.49999
+    width: 109.37497
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1165,7 +1165,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -85.465546
     y: 244
-    width: 70.454544
+    width: 68.74999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1432,7 +1432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 28
+  itemId: 141
   indentLevel: 0
   storyText: Be warned. A creature diligently stalks past these thickets, searching
     for a new victim.
@@ -1478,8 +1478,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -80.965576
-    y: 338
-    width: 126.13635
+    y: 339.72415
+    width: 123.43747
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1503,7 +1503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 29
+  itemId: 142
   indentLevel: 0
   targetFlowchart: {fileID: 0}
   targetBlock: {fileID: 425125332}
@@ -1572,7 +1572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 40
+  itemId: 144
   indentLevel: 0
   targetFlowchart: {fileID: 0}
   targetBlock: {fileID: 425125338}
@@ -1593,7 +1593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 39
+  itemId: 143
   indentLevel: 0
   storyText: Screams are rarely good news, best to avoid trouble and carry on.
   description: 
@@ -1624,7 +1624,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -264.04883
     y: 605.1199
-    width: 92.04545
+    width: 89.062485
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1673,7 +1673,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -195.79883
     y: 520.6199
-    width: 85.227264
+    width: 82.812485
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1701,7 +1701,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 66.20117
     y: 526.6199
-    width: 85.227264
+    width: 82.812485
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1807,7 +1807,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -79.79883
     y: 442.61987
-    width: 126.13635
+    width: 123.43747
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1944,7 +1944,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -207.34319
     y: 788.0495
-    width: 128.40909
+    width: 123.43747
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2081,7 +2081,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 207.95111
     y: 628.1199
-    width: 111.36363
+    width: 109.37497
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2110,7 +2110,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -79.04889
     y: 629.1199
-    width: 112.49999
+    width: 110.93747
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2158,7 +2158,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 38.95111
     y: 724.1199
-    width: 132.95453
+    width: 128.12497
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2343,7 +2343,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 49.95111
     y: 603.1199
-    width: 119.31818
+    width: 115.62497
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2371,7 +2371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 53
+  itemId: 147
   indentLevel: 0
   storyText: did you bounce?
   description: 
@@ -2398,7 +2398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 52
+  itemId: 146
   indentLevel: 0
   storyText: yes
   description: 
@@ -2508,7 +2508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 48
+  itemId: 145
   indentLevel: 0
   storyText: Hey my dumb little meatbun
   description: 
@@ -2566,7 +2566,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 255.78613
     y: 495.11987
-    width: 93.18181
+    width: 90.624985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2779,8 +2779,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 439.68628
-    y: 1356.4446
-    width: 88.63636
+    y: 1345.5071
+    width: 85.937485
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2806,9 +2806,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 597.6859
-    y: 1361.9446
-    width: 138.63635
+    x: 599.2484
+    y: 1347.8821
+    width: 134.37497
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2832,9 +2832,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -58.31395
-    y: 1361.9446
-    width: 137.5
+    x: -30.188953
+    y: 1351.0071
+    width: 134.37497
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2937,7 +2937,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 253.68607
     y: 961.4443
-    width: 99.99999
+    width: 98.43748
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3014,7 +3014,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 185.68597
     y: 1109.4445
-    width: 84.090904
+    width: 82.812485
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3117,7 +3117,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -58.31395
     y: 1101.4446
-    width: 112.49999
+    width: 109.37497
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3305,7 +3305,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 318.68616
     y: 1092.4446
-    width: 146.5909
+    width: 140.62497
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3443,7 +3443,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 105.686005
     y: 1024.4443
-    width: 135.22726
+    width: 129.68747
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3607,7 +3607,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 524.6859
     y: 1048.4445
-    width: 81.81818
+    width: 79.687485
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3720,7 +3720,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 81.68605
     y: 1260.4446
-    width: 212.49998
+    width: 206.24992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3749,7 +3749,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 446.68628
     y: 1262.4446
-    width: 206.81816
+    width: 199.99994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3823,13 +3823,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 186.68597
-    y: 1366.4446
-    width: 87.5
+    x: 172.62347
+    y: 1355.5071
+    width: 85.937485
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 5
+  itemId: 136
   blockName: death1
   description: 
   eventHandler: {fileID: 0}
@@ -3922,11 +3922,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 281.6861
     y: 1023.4442
-    width: 110.227264
+    width: 107.81247
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 0
+  itemId: 135
   blockName: Cat menu1
   description: 
   eventHandler: {fileID: 0}
@@ -3999,7 +3999,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 244.52258
     y: 816.06433
-    width: 111.36363
+    width: 107.81247
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
