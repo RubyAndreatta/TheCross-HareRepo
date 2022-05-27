@@ -718,8 +718,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 425125302}
+  selectedCommands:
+  - {fileID: 425125330}
   variables: []
   description: 
   stepPause: 0
@@ -1434,7 +1436,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 141
   indentLevel: 0
-  storyText: Be warned. A creature diligently stalks past these thickets, searching
+  storyText: Be warned. A creature stalks the path beyond these thickets, they search
     for a new victim.
   description: 
   character: {fileID: 0}
@@ -2286,8 +2288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 57
   indentLevel: 0
-  storyText: Upon seeing the rabbit, he let out a screech of rage, his pathetic display
-    barely faltering as he continues to wriggle against his restraints.
+  storyText: He doesn't see you, too caught up in his own strife.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3920,7 +3921,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 281.6861
+    x: 284.8111
     y: 1023.4442
     width: 107.81247
     height: 40
