@@ -371,6 +371,7 @@ MonoBehaviour:
   colsounds: {fileID: 1588480351}
   colignorepolecat: {fileID: 682403225}
   colfollowpolecat: {fileID: 1108861197}
+  colcat: {fileID: 1282613648}
 --- !u!1 &180188565
 GameObject:
   m_ObjectHideFlags: 0
@@ -704,7 +705,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -131.46555
     y: 77
-    width: 96.938736
+    width: 99.99994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -735,7 +736,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -260.56897
     y: 166.72414
-    width: 88.775475
+    width: 91.304306
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -768,11 +769,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 2239.0527, y: 32.08209}
+  scrollPos: {x: 2401.9927, y: 160.33347}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 0.49000046
+  zoom: 0.46000051
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -850,7 +851,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -130.46555
     y: -9
-    width: 92.8571
+    width: 95.65212
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -876,7 +877,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 10.534454
     y: 167
-    width: 70.40814
+    width: 71.739105
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1197,7 +1198,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -461.96558
     y: 221.5
-    width: 107.14281
+    width: 110.86949
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1226,7 +1227,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -85.465546
     y: 244
-    width: 68.36733
+    width: 69.56519
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1540,7 +1541,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -83.29115
     y: 339.72415
-    width: 119.38769
+    width: 123.912964
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1685,7 +1686,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -564.2551
     y: 599.25525
-    width: 86.734665
+    width: 89.13039
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1734,7 +1735,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -195.79883
     y: 520.6199
-    width: 80.61221
+    width: 82.60866
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1762,7 +1763,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 153.23764
     y: 513.3723
-    width: 80.61221
+    width: 82.60866
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1868,7 +1869,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -79.79883
     y: 442.61987
-    width: 119.38769
+    width: 123.912964
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2003,9 +2004,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -582.4529
-    y: 1065.8082
-    width: 121.428505
+    x: -743.3228
+    y: 1009.2871
+    width: 126.08687
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2141,9 +2142,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 515.9475
-    y: 477.15887
-    width: 107.14281
+    x: 552.9047
+    y: 429.333
+    width: 110.86949
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2173,7 +2174,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -156.357
     y: 610.2032
-    width: 109.18362
+    width: 113.04341
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2220,7 +2221,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 449.6492
     y: 846.8081
-    width: 123.46932
+    width: 128.26077
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2409,7 +2410,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 199.82288
     y: 603.6762
-    width: 111.224434
+    width: 115.217316
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2632,7 +2633,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 304.76553
     y: 315.52826
-    width: 88.775475
+    width: 91.304306
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2845,7 +2846,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -63.966125
     y: 1720.4967
-    width: 84.69385
+    width: 86.95648
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2873,7 +2874,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 95.59613
     y: 1722.8717
-    width: 131.63257
+    width: 136.95642
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2899,7 +2900,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -533.84125
     y: 1725.9967
-    width: 131.63257
+    width: 136.95642
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3000,9 +3001,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -278.48303
-    y: 1213.3704
-    width: 92.8571
+    x: -279.91168
+    y: 1213.3706
+    width: 95.65212
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3079,7 +3080,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -317.96667
     y: 1484.4341
-    width: 80.61221
+    width: 82.60866
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3182,7 +3183,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -561.96625
     y: 1476.4342
-    width: 103.06117
+    width: 106.521675
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3370,7 +3371,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -184.96619
     y: 1467.4342
-    width: 135.7142
+    width: 141.30424
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3478,8 +3479,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 106
   indentLevel: 0
-  storyText: Fallen twigs and debris gets kicked back, diving under the thickets
-    catch on fur and skin but you are hidden.
+  storyText: Fallen twigs and debris get kicked back, diving under the thickets catch
+    on fur and skin but you are now hidden.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3508,7 +3509,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -397.96655
     y: 1399.434
-    width: 125.51013
+    width: 130.4347
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3672,7 +3673,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 21.03357
     y: 1423.4341
-    width: 76.53059
+    width: 78.26083
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3785,7 +3786,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -421.96643
     y: 1635.4342
-    width: 196.93864
+    width: 206.52156
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3814,7 +3815,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -56.966064
     y: 1637.4342
-    width: 190.8162
+    width: 199.99983
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3890,7 +3891,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -331.02917
     y: 1730.4967
-    width: 84.69385
+    width: 86.95648
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3918,7 +3919,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 3
+    floatVal: 2
   targetBlock: {fileID: 425125412}
   durationOLD: 0
 --- !u!114 &425125422
@@ -3987,7 +3988,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -218.84125
     y: 1398.4338
-    width: 105.10199
+    width: 108.69559
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4192,9 +4193,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -201.59177
-    y: 977.4295
-    width: 115.30606
+    x: -230.16335
+    y: 928.44995
+    width: 119.56514
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4251,7 +4252,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -502.96967
     y: 755.13605
-    width: 135.7142
+    width: 141.30424
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4281,7 +4282,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -98.018585
     y: 752.00867
-    width: 94.89792
+    width: 97.826035
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4392,7 +4393,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -341.51105
     y: 658.0498
-    width: 96.938736
+    width: 99.99994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4446,7 +4447,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 170.2478
     y: 744.53326
-    width: 88.775475
+    width: 91.304306
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4707,7 +4708,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 86.0195
     y: 907.10944
-    width: 111.224434
+    width: 115.217316
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4898,7 +4899,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -19.025599
     y: 542.1094
-    width: 98.979546
+    width: 102.17386
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5061,7 +5062,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -9.552677
     y: 667.0584
-    width: 139.79584
+    width: 145.65207
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5402,7 +5403,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 338.30978
     y: 1045.1053
-    width: 137.75502
+    width: 143.47815
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5432,9 +5433,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -9.156403
-    y: 1090.2351
-    width: 145.91827
+    x: -23.4421
+    y: 1092.2759
+    width: 152.1738
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9913,6 +9914,7 @@ Transform:
   - {fileID: 1588480352}
   - {fileID: 682403224}
   - {fileID: 1108861196}
+  - {fileID: 1282613647}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10290,6 +10292,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1261106576}
   m_CullTransparentMesh: 1
+--- !u!1 &1282613646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1282613647}
+  - component: {fileID: 1282613648}
+  m_Layer: 0
+  m_Name: colcat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1282613647
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282613646}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.72, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1140408874}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1282613648
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282613646}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &1294322374
 GameObject:
   m_ObjectHideFlags: 0
