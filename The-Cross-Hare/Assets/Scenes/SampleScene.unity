@@ -372,56 +372,6 @@ MonoBehaviour:
   colignorepolecat: {fileID: 682403225}
   colfollowpolecat: {fileID: 1108861197}
   colcat: {fileID: 1282613648}
---- !u!1 &180188565
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 180188566}
-  - component: {fileID: 180188567}
-  m_Layer: 0
-  m_Name: Character (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &180188566
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 180188565}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.7800007, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 222547658}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &180188567
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 180188565}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameText: Character Name
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
-  soundEffect: {fileID: 0}
-  portraits: []
-  portraitsFace: 0
-  setSayDialog: {fileID: 0}
-  description: 
 --- !u!1 &222547657
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,7 +403,6 @@ Transform:
   - {fileID: 1310398170}
   - {fileID: 1757741231}
   - {fileID: 1460891052}
-  - {fileID: 180188566}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -655,6 +604,7 @@ GameObject:
   - component: {fileID: 425125488}
   - component: {fileID: 425125487}
   - component: {fileID: 425125489}
+  - component: {fileID: 425125490}
   m_Layer: 0
   m_Name: Tutorial
   m_TagString: Untagged
@@ -679,7 +629,7 @@ MonoBehaviour:
   storyText: Oh dear, a kit severed from their own...
   description: 
   character: {fileID: 1310398171}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: dc13d39afc3cd894a8bd04d44fb344bc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -769,7 +719,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 946.18115, y: -126.542244}
+  scrollPos: {x: 969.469, y: 181.67699}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
@@ -781,9 +731,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 425125358}
-  selectedCommands:
-  - {fileID: 425125445}
+  - {fileID: 425125490}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -827,7 +776,7 @@ MonoBehaviour:
     you pass through these parts, unharmed and well.
   description: 
   character: {fileID: 1310398171}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: dc13d39afc3cd894a8bd04d44fb344bc, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5735,6 +5684,32 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &425125490
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425125299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -505.0853
+    y: 399.14508
+    width: 70.54795
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 220
+  blockName: test
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -5910,7 +5885,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Story text
+  m_Text: a
 --- !u!222 &528011576
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11107,7 +11082,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 425125303}
+  selectedFlowchart: {fileID: 1305723850}
 --- !u!4 &1606458618
 Transform:
   m_ObjectHideFlags: 1
