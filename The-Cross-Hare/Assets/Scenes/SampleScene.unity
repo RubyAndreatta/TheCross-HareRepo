@@ -626,7 +626,7 @@ MonoBehaviour:
   storyText: {fileID: 1343381858}
   storyTextGO: {fileID: 0}
   characterImage: {fileID: 791743624}
-  fitTextWithImage: 1
+  fitTextWithImage: 0
   closeOtherDialogs: 0
 --- !u!114 &261069641
 MonoBehaviour:
@@ -1072,7 +1072,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -131.46555
     y: 77
-    width: 96.938736
+    width: 105.223854
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1103,7 +1103,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -260.56897
     y: 166.72414
-    width: 88.775475
+    width: 94.7761
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1136,11 +1136,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1393.2378, y: -79.93902}
+  scrollPos: {x: 1260.2812, y: -416.27686}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 0.49000046
+  zoom: 0.6700003
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1148,9 +1148,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 425125478}
+  - {fileID: 425125387}
   selectedCommands:
-  - {fileID: 425125487}
+  - {fileID: 425125385}
   variables: []
   description: 
   stepPause: 0
@@ -1220,7 +1220,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -130.46555
     y: -9
-    width: 92.8571
+    width: 97.76117
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1246,7 +1246,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 10.534454
     y: 167
-    width: 70.40814
+    width: 73.880585
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1567,7 +1567,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -461.96558
     y: 221.5
-    width: 107.14281
+    width: 117.16415
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1596,7 +1596,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -85.465546
     y: 244
-    width: 68.36733
+    width: 72.38805
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1910,7 +1910,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -83.29115
     y: 339.72415
-    width: 119.38769
+    width: 127.6119
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2055,7 +2055,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -564.2551
     y: 599.25525
-    width: 86.734665
+    width: 94.7761
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2104,7 +2104,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -195.79883
     y: 520.6199
-    width: 80.61221
+    width: 87.313416
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2132,7 +2132,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 153.23764
     y: 513.3723
-    width: 80.61221
+    width: 85.82088
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2238,7 +2238,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -79.79883
     y: 442.61987
-    width: 119.38769
+    width: 129.10443
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2375,7 +2375,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -743.3228
     y: 1009.2871
-    width: 121.428505
+    width: 133.58205
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2513,7 +2513,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 552.9047
     y: 429.333
-    width: 107.14281
+    width: 112.68654
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2543,7 +2543,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -156.357
     y: 610.2032
-    width: 109.18362
+    width: 114.17908
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2590,7 +2590,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 449.6492
     y: 846.8081
-    width: 123.46932
+    width: 136.56712
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2779,7 +2779,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 199.82288
     y: 603.6762
-    width: 111.224434
+    width: 121.641754
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3002,7 +3002,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 304.76553
     y: 315.52826
-    width: 88.775475
+    width: 94.7761
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3215,7 +3215,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -63.966125
     y: 1720.4967
-    width: 84.69385
+    width: 91.79102
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3243,7 +3243,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 95.59613
     y: 1722.8717
-    width: 131.63257
+    width: 144.02982
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3269,7 +3269,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -533.84125
     y: 1725.9967
-    width: 131.63257
+    width: 142.53726
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3317,8 +3317,8 @@ MonoBehaviour:
   storyText: Their whiskers twitching as you hop into the clearing, their blindness
     is as obvious as their pelt is black.
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1460891053}
+  portrait: {fileID: 21300000, guid: 22c2ee534ddadbb4c85805c2580ae87a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3345,8 +3345,8 @@ MonoBehaviour:
   storyText: 'Perched upon a tree stump, swarmed with moss and fungi sat a towering
     figure. An ink-black cat, paired with pupil-less eyes. '
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1460891053}
+  portrait: {fileID: 21300000, guid: 22c2ee534ddadbb4c85805c2580ae87a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3372,7 +3372,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -279.91168
     y: 1213.3706
-    width: 92.8571
+    width: 100.74625
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3422,8 +3422,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: A wise decision from the meek rabbit, come, we can discuss your passage.
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1460891053}
+  portrait: {fileID: 21300000, guid: 684861b28d80ccf43a7e47bf2a7ac2c1, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3449,7 +3449,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -317.96667
     y: 1484.4341
-    width: 80.61221
+    width: 85.82088
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3499,7 +3499,7 @@ MonoBehaviour:
   storyText: Foolish, meek rabbit. Ignorance is an ugly mark to bare.
   description: 
   character: {fileID: 1460891053}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 684861b28d80ccf43a7e47bf2a7ac2c1, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3526,8 +3526,8 @@ MonoBehaviour:
   storyText: Claws catch on fur and flesh, the thickets are merciful in comparison.
     Escape is impossible.
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1460891053}
+  portrait: {fileID: 21300000, guid: 22c2ee534ddadbb4c85805c2580ae87a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3553,7 +3553,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -561.96625
     y: 1476.4342
-    width: 103.06117
+    width: 114.17908
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3604,8 +3604,8 @@ MonoBehaviour:
   storyText: I am sure you were warned of the dangers of these woodlands, fear not,
     even a wrong response reveals the answer.
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1460891053}
+  portrait: {fileID: 21300000, guid: 684861b28d80ccf43a7e47bf2a7ac2c1, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3632,7 +3632,7 @@ MonoBehaviour:
   storyText: Passage requires a correct answer to a riddle of mine.
   description: 
   character: {fileID: 1460891053}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 684861b28d80ccf43a7e47bf2a7ac2c1, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3659,8 +3659,8 @@ MonoBehaviour:
   storyText: In a blink of an eye the cat has hopped down from the stump, flanking
     your hide.
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1460891053}
+  portrait: {fileID: 21300000, guid: 22c2ee534ddadbb4c85805c2580ae87a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3687,7 +3687,7 @@ MonoBehaviour:
   storyText: Rabbit, travelling east?
   description: 
   character: {fileID: 1460891053}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 684861b28d80ccf43a7e47bf2a7ac2c1, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3741,7 +3741,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -184.96619
     y: 1467.4342
-    width: 135.7142
+    width: 151.4925
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3825,7 +3825,7 @@ MonoBehaviour:
     to a bloodhound.
   description: 
   character: {fileID: 1460891053}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 684861b28d80ccf43a7e47bf2a7ac2c1, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3879,7 +3879,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -397.96655
     y: 1399.434
-    width: 125.51013
+    width: 139.5522
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3931,7 +3931,7 @@ MonoBehaviour:
   storyText: However, your hesitation is that to note.
   description: 
   character: {fileID: 1460891053}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 684861b28d80ccf43a7e47bf2a7ac2c1, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3960,7 +3960,7 @@ MonoBehaviour:
     I.
   description: 
   character: {fileID: 1460891053}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 684861b28d80ccf43a7e47bf2a7ac2c1, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4042,8 +4042,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 21.03357
-    y: 1423.4341
-    width: 76.53059
+    y: 1427.9117
+    width: 82.8358
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4102,7 +4102,7 @@ MonoBehaviour:
   storyText: 'Your heart, let it be still. '
   description: 
   character: {fileID: 1460891053}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 684861b28d80ccf43a7e47bf2a7ac2c1, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4129,8 +4129,8 @@ MonoBehaviour:
   storyText: 'Before you can respond, the cat nudges you into the clearing. Vulnerability
     knaws at every sense, clouding judgement. '
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1460891053}
+  portrait: {fileID: 21300000, guid: 22c2ee534ddadbb4c85805c2580ae87a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4156,7 +4156,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -421.96643
     y: 1635.4342
-    width: 196.93864
+    width: 214.17903
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4183,9 +4183,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -56.966064
+    x: -55.473526
     y: 1637.4342
-    width: 190.8162
+    width: 208.20888
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4261,7 +4261,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -331.02917
     y: 1730.4967
-    width: 84.69385
+    width: 90.29849
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4358,7 +4358,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -218.84125
     y: 1398.4338
-    width: 105.10199
+    width: 112.68654
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4565,7 +4565,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -230.16335
     y: 928.44995
-    width: 115.30606
+    width: 126.11937
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4623,7 +4623,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -502.96967
     y: 755.13605
-    width: 135.7142
+    width: 149.99995
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4654,7 +4654,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -98.018585
     y: 752.00867
-    width: 94.89792
+    width: 100.74625
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4765,7 +4765,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -341.51105
     y: 658.0498
-    width: 96.938736
+    width: 103.73132
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4819,7 +4819,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 170.2478
     y: 744.53326
-    width: 88.775475
+    width: 93.28356
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5080,7 +5080,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 86.0195
     y: 907.10944
-    width: 111.224434
+    width: 115.67161
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5271,7 +5271,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -19.025599
     y: 542.1094
-    width: 98.979546
+    width: 100.74625
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5434,7 +5434,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -9.552677
     y: 667.0584
-    width: 139.79584
+    width: 148.50742
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5775,7 +5775,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 338.30978
     y: 1045.1053
-    width: 137.75502
+    width: 149.99995
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5807,7 +5807,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -23.4421
     y: 1092.2759
-    width: 145.91827
+    width: 157.46265
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9325,7 +9325,9 @@ MonoBehaviour:
   nameText: Cat
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: 22c2ee534ddadbb4c85805c2580ae87a, type: 3}
+  - {fileID: 21300000, guid: 684861b28d80ccf43a7e47bf2a7ac2c1, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
