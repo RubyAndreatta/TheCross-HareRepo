@@ -1077,11 +1077,7 @@ GameObject:
   - component: {fileID: 425125384}
   - component: {fileID: 425125383}
   - component: {fileID: 425125382}
-  - component: {fileID: 425125381}
-  - component: {fileID: 425125380}
-  - component: {fileID: 425125379}
   - component: {fileID: 425125426}
-  - component: {fileID: 425125425}
   - component: {fileID: 425125431}
   - component: {fileID: 425125430}
   - component: {fileID: 425125429}
@@ -1150,9 +1146,11 @@ GameObject:
   - component: {fileID: 425125489}
   - component: {fileID: 425125491}
   - component: {fileID: 425125490}
-  - component: {fileID: 425125492}
   - component: {fileID: 425125494}
-  - component: {fileID: 425125493}
+  - component: {fileID: 425125495}
+  - component: {fileID: 425125381}
+  - component: {fileID: 425125380}
+  - component: {fileID: 425125379}
   m_Layer: 0
   m_Name: Tutorial
   m_TagString: Untagged
@@ -1203,7 +1201,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -131.46555
     y: 77
-    width: 105.22386
+    width: 101.219505
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1234,7 +1232,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -260.56897
     y: 166.72414
-    width: 94.77611
+    width: 92.68292
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1267,11 +1265,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1620.0497, y: 16.925968}
+  scrollPos: {x: 1256.6813, y: -843.36993}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 0.67000026
+  zoom: 0.8200001
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1279,9 +1277,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 425125302}
-  selectedCommands:
-  - {fileID: 425125321}
+  - {fileID: 425125383}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1351,7 +1348,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -130.46555
     y: -9
-    width: 97.76118
+    width: 96.34146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1377,7 +1374,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 10.534454
     y: 167
-    width: 73.880585
+    width: 73.17073
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1698,7 +1695,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -461.96558
     y: 221.5
-    width: 117.164154
+    width: 114.63414
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1727,7 +1724,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -85.465546
     y: 244
-    width: 72.388054
+    width: 71.95122
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2041,7 +2038,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -83.29115
     y: 339.72415
-    width: 127.61191
+    width: 126.829254
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2088,7 +2085,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  storyText: (FIX)
+  storyText: The path funnels you through foliage and the woodland undergrowth, the
+    path is tangled and difficult to follow.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2157,7 +2155,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 143
   indentLevel: 0
-  storyText: Screams are rarely good news, best to avoid trouble and carry on.
+  storyText: The path twists and turns, thickets pull at fur, the earth is cold beneath
+    your paws.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2185,8 +2184,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -564.2551
-    y: 599.25525
-    width: 94.77611
+    y: 600.6251
+    width: 92.68292
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2233,9 +2232,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -195.79883
-    y: 520.6199
-    width: 87.313416
+    x: -230.04533
+    y: 523.3596
+    width: 85.365845
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2263,7 +2262,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 153.23764
     y: 513.3723
-    width: 85.82088
+    width: 82.92683
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2339,8 +2338,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 34
   indentLevel: 0
-  storyText: Distant screeches ring out, they seem to be screams born from an  enraged
-    and frustrated individual.
+  storyText: They seem to be screams born from an enraged and frustrated individual.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2367,9 +2365,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -79.79883
-    y: 442.61987
-    width: 129.10445
+    x: -78.370255
+    y: 441.1913
+    width: 126.829254
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2378,6 +2376,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 425125495}
   - {fileID: 425125344}
   - {fileID: 425125343}
   - {fileID: 425125342}
@@ -2396,7 +2395,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 41
   indentLevel: 0
-  storyText: (FIX)
+  storyText: Screams are rarely good news, best to avoid trouble and carry on.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2506,7 +2505,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -743.3228
     y: 1009.2871
-    width: 133.58206
+    width: 130.4878
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2515,7 +2514,6 @@ MonoBehaviour:
   description: call
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 425125425}
   - {fileID: 425125446}
   - {fileID: 425125426}
   suppressAllAutoSelections: 0
@@ -2644,7 +2642,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 552.9047
     y: 429.333
-    width: 112.68654
+    width: 109.75609
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2674,7 +2672,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -156.357
     y: 610.2032
-    width: 114.17908
+    width: 112.195114
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2721,7 +2719,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 449.6492
     y: 846.8081
-    width: 136.56714
+    width: 134.14633
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2854,7 +2852,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 57
   indentLevel: 0
-  storyText: He doesn't see you, too caught up in his own strife.
+  storyText: The polecat doesn't see you, too caught up in his own strife.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2881,7 +2879,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 55
   indentLevel: 0
-  storyText: 'As the cries grew louder, it became evident they were made out of frustration. '
+  storyText: As the cries grew louder, it became more and more evident what was going
+    on.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2910,7 +2909,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 199.82288
     y: 603.6762
-    width: 121.64176
+    width: 118.29267
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3133,7 +3132,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 304.76553
     y: 315.52826
-    width: 94.77611
+    width: 93.902435
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3267,7 +3266,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 82
   indentLevel: 0
-  storyText: (FIX)
+  storyText: Curiosity tugs at the heart, as stupid as it may be, you must follow
+    the cries.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3292,9 +3292,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 130
+  itemId: 228
   indentLevel: 0
-  text: 
+  text: Option Text
   description: 
   targetBlock: {fileID: 0}
   hideIfVisited: 0
@@ -3317,9 +3317,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 129
+  itemId: 227
   indentLevel: 0
-  text: 
+  text: Option Text
   description: 
   targetBlock: {fileID: 0}
   hideIfVisited: 0
@@ -3339,26 +3339,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 425125299}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: -63.966125
-    y: 1720.4967
-    width: 91.79103
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 53
-  blockName: death2
+  itemId: 226
+  indentLevel: 0
+  storyText: I am glad the coward found the courage within to seek the truth.
   description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 425125380}
-  - {fileID: 425125379}
-  - {fileID: 425125492}
-  suppressAllAutoSelections: 0
+  character: {fileID: 1460891053}
+  portrait: {fileID: 21300000, guid: 684861b28d80ccf43a7e47bf2a7ac2c1, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &425125382
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3375,7 +3373,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 95.59613
     y: 1722.8717
-    width: 144.02982
+    width: 139.02438
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3399,9 +3397,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -533.84125
-    y: 1725.9967
-    width: 142.53728
+    x: -522.8658
+    y: 1729.6552
+    width: 137.80487
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3504,7 +3502,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -279.91168
     y: 1213.3706
-    width: 100.74625
+    width: 96.34146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3581,7 +3579,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -317.96667
     y: 1484.4341
-    width: 85.82088
+    width: 82.92683
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3591,6 +3589,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 425125389}
+  - {fileID: 425125381}
   - {fileID: 425125388}
   suppressAllAutoSelections: 0
 --- !u!114 &425125391
@@ -3628,7 +3627,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 119
   indentLevel: 0
-  storyText: Foolish, meek rabbit. Ignorance is an ugly mark to bare.
+  storyText: Foolish, meek rabbit. Ignorance is ugly.
   description: 
   character: {fileID: 1460891053}
   portrait: {fileID: 21300000, guid: 684861b28d80ccf43a7e47bf2a7ac2c1, type: 3}
@@ -3685,7 +3684,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -561.96625
     y: 1476.4342
-    width: 114.17908
+    width: 108.536575
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3871,9 +3870,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -184.96619
-    y: 1467.4342
-    width: 151.4925
+    x: -167.893
+    y: 1485.7264
+    width: 145.12195
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4011,7 +4010,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -397.96655
     y: 1399.434
-    width: 139.55222
+    width: 134.14633
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4175,7 +4174,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 21.03357
     y: 1427.9117
-    width: 82.83581
+    width: 80.4878
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4288,7 +4287,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -421.96643
     y: 1635.4342
-    width: 214.17905
+    width: 212.1951
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4300,7 +4299,8 @@ MonoBehaviour:
   - {fileID: 425125415}
   - {fileID: 425125414}
   - {fileID: 425125413}
-  - {fileID: 425125493}
+  - {fileID: 425125380}
+  - {fileID: 425125379}
   suppressAllAutoSelections: 0
 --- !u!114 &425125417
 MonoBehaviour:
@@ -4317,8 +4317,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -55.473526
-    y: 1637.4342
-    width: 208.2089
+    y: 1637.4343
+    width: 206.09753
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4392,14 +4392,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -331.02917
-    y: 1730.4967
-    width: 90.29849
+    x: -159.07785
+    y: 1820.7405
+    width: 84.14633
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 136
-  blockName: death1
+  blockName: Death
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -4492,7 +4492,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -220.26982
     y: 1399.8624
-    width: 112.68654
+    width: 109.75609
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4505,33 +4505,6 @@ MonoBehaviour:
   - {fileID: 425125422}
   - {fileID: 425125421}
   suppressAllAutoSelections: 0
---- !u!114 &425125425
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 425125299}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 132
-  indentLevel: 0
-  storyText: (FIX)
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &425125426
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4699,7 +4672,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -230.16335
     y: 928.44995
-    width: 126.11938
+    width: 121.95121
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4755,9 +4728,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -502.96967
-    y: 755.13605
-    width: 149.99997
+    x: -504.33954
+    y: 740.06744
+    width: 147.56096
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4788,7 +4761,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -98.018585
     y: 752.00867
-    width: 100.74625
+    width: 99.99999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4899,7 +4872,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -341.51105
     y: 658.0498
-    width: 103.73132
+    width: 103.65852
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4953,7 +4926,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 170.2478
     y: 744.53326
-    width: 93.28357
+    width: 92.68292
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5214,7 +5187,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 86.0195
     y: 907.10944
-    width: 115.671616
+    width: 117.07316
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5405,7 +5378,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -19.025599
     y: 542.1094
-    width: 100.74625
+    width: 102.43902
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5568,7 +5541,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -9.552677
     y: 667.0584
-    width: 148.50742
+    width: 147.56096
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5833,8 +5806,8 @@ MonoBehaviour:
   storyText: Cat... Always the same two questions and answers, it is physically impossible
     for this self-centered, pompous idiot to be original.
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1757741232}
+  portrait: {fileID: 21300000, guid: 603d5d35aaf93bf4bbeadf439e66f710, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5861,8 +5834,8 @@ MonoBehaviour:
   storyText: This pretensious cat gives out riddles, fail and you die. Easy, right?
     Either the answer is (RA) or (RA).
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1757741232}
+  portrait: {fileID: 21300000, guid: 603d5d35aaf93bf4bbeadf439e66f710, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5909,7 +5882,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 338.30978
     y: 1045.1053
-    width: 149.99997
+    width: 147.56096
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5941,7 +5914,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -23.4421
     y: 1092.2759
-    width: 157.46265
+    width: 156.09755
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6075,8 +6048,8 @@ MonoBehaviour:
   storyText: (RA) for if you run off, (RA) for if you stay. Nothing changes. They
     are full of pride and prey are full of... Nothing. You all lack logical thinking.
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1757741232}
+  portrait: {fileID: 21300000, guid: 603d5d35aaf93bf4bbeadf439e66f710, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6103,8 +6076,8 @@ MonoBehaviour:
   storyText: Where are you- alright, fine, leave. Go and show that cat that they
     aren't all so powerful after all.
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1757741232}
+  portrait: {fileID: 21300000, guid: 603d5d35aaf93bf4bbeadf439e66f710, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6130,8 +6103,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: You are stupid.
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1757741232}
+  portrait: {fileID: 21300000, guid: 603d5d35aaf93bf4bbeadf439e66f710, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6157,8 +6130,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: ...
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1757741232}
+  portrait: {fileID: 21300000, guid: fa346dfde67d45644a7f1769eb8d5085, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6185,8 +6158,8 @@ MonoBehaviour:
   storyText: Now get lost before I crave slow-rabbit. Get out of here and let me
     have some peace and quiet.
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1757741232}
+  portrait: {fileID: 21300000, guid: 603d5d35aaf93bf4bbeadf439e66f710, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6292,50 +6265,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &425125492
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 425125299}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 222
-  indentLevel: 0
-  _sceneName:
-    stringRef: {fileID: 0}
-    stringVal: DeathScene
-  loadingImage: {fileID: 0}
-  sceneNameOLD: 
---- !u!114 &425125493
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 425125299}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 224
-  indentLevel: 0
-  text: Death
-  description: 
-  targetBlock: {fileID: 425125420}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
 --- !u!114 &425125494
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6355,6 +6284,34 @@ MonoBehaviour:
     stringVal: DeathScene
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &425125495
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425125299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 225
+  indentLevel: 0
+  storyText: Just as the path becomes almost impossible to further pass through,
+    a distant screech starts to ring out.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
