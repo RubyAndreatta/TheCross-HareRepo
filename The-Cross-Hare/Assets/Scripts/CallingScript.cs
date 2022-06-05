@@ -10,6 +10,8 @@ public class CallingScript : MonoBehaviour
     public Collider2D colignorepolecat;
     public Collider2D colfollowpolecat;
     public Collider2D colcat;
+    public Collider2D colspider1;
+
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +27,7 @@ public class CallingScript : MonoBehaviour
             // this.GetComponent<PlayerMovement>().enabled = false;
 
             // callingFlowchart.ExecuteBlock("Polecatscries");
-           // Debug.Log("block working");
+            // Debug.Log("block working");
             transform.position = colsounds.transform.position;
         }
 
@@ -54,8 +56,17 @@ public class CallingScript : MonoBehaviour
             // callingFlowchart.ExecuteBlock("Polecatscries");
             // Debug.Log("block working");
             transform.position = colcat.transform.position;
+
         }
+
+        else if (callingFlowchart.FindBlock("OnwardsToSpider").IsExecuting())
+        {
+            // this.GetComponent<PlayerMovement>().enabled = false;
+
+            // callingFlowchart.ExecuteBlock("Polecatscries");
+            // Debug.Log("block working");
+            transform.position = colspider1.transform.position;
+        }
+
     }
-
-
 }
