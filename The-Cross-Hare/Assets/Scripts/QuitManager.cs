@@ -1,12 +1,13 @@
 using UnityEngine;
 using System.Collections;
 
+// Quits the player when the user hits escape
 
-public class QuitManager : MonoBehaviour
+public class Quit : MonoBehaviour
 {
     void Update()
     {
-        if (Input.GetKey(KeyCode.Backspace))
+        if (Input.GetKeyDown(KeyCode.X))
         {
             Application.Quit();
         }

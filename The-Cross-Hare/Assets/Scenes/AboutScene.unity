@@ -243,8 +243,8 @@ MonoBehaviour:
     the horizon. \n\nGeneral controls: Click with the left mouse to select options
     and pass through text. Be warned, there are timed options throughout this gameplay.
     Choices matter, as small as some may seem they can lead you through unique pathways.\n\nIf
-    you wish to leave the game, simply press \"x\" on your keyboard. If you want
-    to skip through dialogue, hold down \"escape\"."
+    you wish to leave the game, simply press \"backspace\" on your keyboard. If you
+    want to skip through dialogue, hold down \"escape\"."
 --- !u!222 &19382779
 CanvasRenderer:
   m_ObjectHideFlags: 0
