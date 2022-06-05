@@ -201,8 +201,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.44506836, y: 0.005004883}
-  m_SizeDelta: {x: -21.68984, y: -0.009982681}
+  m_AnchoredPosition: {x: -0.44506836, y: 2}
+  m_SizeDelta: {x: -21.68984, y: -12.300006}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &19382778
 MonoBehaviour:
@@ -241,8 +241,9 @@ MonoBehaviour:
     the back of a truck. Cushioned by the corpses of your kin and discovered by a
     friendly doe, you must now travel alone to find one of the many warrens across
     the horizon. \n\nGeneral controls: Click with the left mouse to select options
-    and pass through text.\n\nIf you wish to leave the game, simply press \"escape\"
-    on your keyboard."
+    and pass through text. Be warned, there are timed options throughout this gameplay.
+    Choices matter, as small as some may seem they can lead you through unique pathways.\n\nIf
+    you wish to leave the game, simply press \"escape\" on your keyboard."
 --- !u!222 &19382779
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -524,8 +525,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 400, y: 97}
-  m_SizeDelta: {x: 733.5, y: 145.3}
+  m_AnchoredPosition: {x: 394, y: 97}
+  m_SizeDelta: {x: 744.06, y: 168}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1001194114
 MonoBehaviour:
