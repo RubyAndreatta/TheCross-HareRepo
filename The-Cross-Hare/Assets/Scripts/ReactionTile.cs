@@ -11,11 +11,11 @@ public class ReactionTile : MonoBehaviour
        
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    /* void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("hit");
     }
-
+    */
 }
     
 
