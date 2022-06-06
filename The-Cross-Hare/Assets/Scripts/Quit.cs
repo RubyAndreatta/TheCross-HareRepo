@@ -6,7 +6,7 @@ public class QuitManager : MonoBehaviour
 {
     void Update()
     {
-        if (Input.GetKey(KeyCode.Delete))
+        if (Input.GetKey(KeyCode.X))
         {
             Application.Quit();
         }
